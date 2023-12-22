@@ -1,0 +1,112 @@
+.main-container {
+  height: 100vh;
+  background-color: #eeeae7;
+  overflow: hidden;
+  display: flex;
+  padding: 50px 100px;
+}
+
+/* section 1 */
+.side-section-container {
+  background-color: #dbd5d0;
+  padding: 0 30px;
+  flex: 0.9;
+  margin: 10px;
+}
+.main-text {
+  color: #000000;
+  margin-bottom: 0;
+}
+.sub-text {
+  margin-top: 0;
+  font-size: 13px;
+  color: #868482;
+}
+.btn {
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.add-runner-btn {
+  background-color: #000000;
+  color: #fff;
+}
+.add-runner-btn:hover {
+  color: #000000;
+  background-color: #fff;
+  border: 1px solid #000000;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.input-container input {
+  height: 40px;
+  width: 100%;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 3px;
+}
+/* section 2 */
+.participates-container {
+  flex: 2;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 10px;
+  padding: 0 30px 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: none;
+  text-align: left;
+  font-size: 14px;
+  padding: 8px;
+  margin: 10px !important;
+  background-color: #f4f3f1;
+}
+.each-task-container {
+  background-color: #f4f3f1;
+}
+
+.race-btn-container {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.race-btn-container hr {
+  width: 100%;
+}
+.start-race-btn {
+  background-color: #ea492b;
+  color: white;
+  align-self: flex-end;
+  border: 1px solid #fff;
+}
+.start-race-btn:hover {
+  color: #ea492b;
+  background-color: #fff;
+  border: 1px solid #ea492b;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+/* page 2 */
+
+.race-container {
+  background-color: #afa39e;
+}
