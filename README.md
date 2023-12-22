@@ -10,6 +10,10 @@
 - [Deployment Platforms](#deployment-platforms)
 - [Submission Requirements](#submission-requirements)
 
+## Live Link
+
+`https://naren-tech-eagle-assignment.netlify.app/`
+
 ## Description
 
 This repository contains the solution for the Frontend Intern Assignment, which involves creating a Frontend Application using React. The application simulates a race between multiple participants.
